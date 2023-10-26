@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+const s string = "constant"
+
 func main() {
     var greeting = "hello world!"
 	fmt.Println(greeting)
@@ -33,4 +35,6 @@ func main() {
 
 	f := "apple"
 	fmt.Println(f)
+
+	fmt.Println("constant outside of function:", s)
 }
